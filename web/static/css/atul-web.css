@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgb(2, 43, 85);
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  display: block;
+}
+
+.head {
+  display: flex;
+  background-color: #052968;
+  text-align: center;
+  color: #fff
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(189, 238, 238);
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  text-align: center;
+}
+
+.topnav a {
+  display: inline-block;
+  color: #052968;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: #1E90FF;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #052968;
+  color: white;
+}
+
+.content {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 25px;
+}
+
+.content-head {
+  color: rgb(60, 60, 60);
+  padding: 0px;
+}
+
+.img-profile {
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  height: 175px;
+  width: 150px;
+}
+
+li {
+  padding: 10px;
+  text-align: justify;
+}
+
+p {
+  text-align: justify;
+}
+
+hr {
+  width: 50px;
+  height: 3px;
+  background-color: rgb(160, 160, 160);
+  border: 0px;
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  display: inline-flex;
+  width: 25.99999%;
+}
+
+#footer {
+  width: 100%;
+  margin-top: 30px;
+  display: block;
+  float: right;
+  background-color: #052968;
+  min-height: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 45.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+  .head {
+    display: flex;
+    background-color: #052968;
+    text-align: center;
+    color: #fff
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(189, 238, 238);
+    position: relative;
+    top: 0;
+    text-align: center;
+  }
+  .topnav a {
+    display: inline-block;
+    color: #052968;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+  }
+}

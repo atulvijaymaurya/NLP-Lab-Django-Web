@@ -1,0 +1,42 @@
+{% extends 'common.html' %}
+
+{% block body %}
+<script>
+  document.getElementById("nav_gallery").className = "active";
+</script>
+<!--Write page code below this-->
+
+<center>
+  <div class="content">
+    <div class="responsive">
+      <div class="gallery">
+        <img src="static/images/gallery/1.jpeg" width="600" height="400">
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <img src="static/images/gallery/6.jpg" width="600" height="400">
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <img src="static/images/gallery/3.jpg" alt="Northern Lights" width="600" height="400">
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <img src="static/images/gallery/4.jpg" width="600" height="400">
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+  </div>
+</center>
+
+<!--Write page code above this-->
+{% endblock %}
